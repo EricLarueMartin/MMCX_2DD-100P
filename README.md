@@ -5,7 +5,8 @@ Requires two PCBs on 47 mil board, one for even channel and one for odd channels
 MMCX_2DD-100P_Even.zip and MMCX_2DD-100P_Odd.zip
 
 Uses MMCX connectors: MOLEX 0734150961
-The other connector is a double density 100 pin DSub connector: ITT Cannon 2DD-100P
+The other connector is a double density 100 pin DSub connector: ITT Cannon 2DD-100PF0
+The pins for the connector are 031-9540-015
 
 Any MMCX plug can connector to the adapter, such as MOLEX 0734150970
 
@@ -15,4 +16,4 @@ The two half shells are made of two material so that channel labels and the UNC 
 The boards will be mounted at and angle, and the pins need to be soldered on first. A jig is recommended to insert the board without bending the pins:
 InsertionGuideA.stl and InsertionGuideB.stl
 
-To solder the pins in the correct position a connector with the holes drilled so the pins don't get stuck was used previously. Printing a jig for the pins from 2DD-100P.ipt should also work, but verify the hole spacing first.
+To solder the pins in the correct position a connector with the holes drilled so the pins don't get stuck was used previously. Printing a jig for the pins from 2DD-100P.ipt should also work, but verify the hole spacing first as I think it was slightly off.
