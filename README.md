@@ -1,7 +1,7 @@
 # MMCX_2DD-100P
 Adapter between MMCX connectors to a 2DD 100 pin connector for Gretina cards
 
-Requires two PCBs on 47 mil board, one for EVEN and one for ODD.
+Requires two PCBs on 47 mil board, one for even channel and one for odd channels.
 MMCX_2DD-100P_Even.zip and MMCX_2DD-100P_Odd.zip
 
 Uses MMCX connectors: MOLEX 0734150961
