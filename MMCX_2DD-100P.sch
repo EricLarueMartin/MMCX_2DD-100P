@@ -1,0 +1,356 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5D65383A
+P 5600 1750
+F 0 "J2" H 5573 1773 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5573 1682 50  0000 R CNN
+F 2 "MMCX_2DD-100P:2xCoax_to_2DD" H 5600 1750 50  0001 C CNN
+F 3 "~" H 5600 1750 50  0001 C CNN
+	1    5600 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5D65391A
+P 5050 1650
+F 0 "J1" H 4980 1888 50  0000 C CNN
+F 1 "Conn_Coaxial" H 4980 1797 50  0000 C CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 1650 50  0001 C CNN
+F 3 " ~" H 5050 1650 50  0001 C CNN
+	1    5050 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5D653942
+P 5050 2050
+F 0 "J3" H 5150 1934 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5150 2025 50  0000 L CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 2050 50  0001 C CNN
+F 3 " ~" H 5050 2050 50  0001 C CNN
+	1    5050 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 1650 5400 1650
+Wire Wire Line
+	5250 2050 5250 1750
+Wire Wire Line
+	5250 1750 5350 1750
+Wire Wire Line
+	5400 1850 5050 1850
+Connection ~ 5050 1850
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5D6544DC
+P 5600 2700
+F 0 "J5" H 5573 2723 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5573 2632 50  0000 R CNN
+F 2 "MMCX_2DD-100P:2xCoax_to_2DD" H 5600 2700 50  0001 C CNN
+F 3 "~" H 5600 2700 50  0001 C CNN
+	1    5600 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5D6544E2
+P 5050 2600
+F 0 "J4" H 4980 2838 50  0000 C CNN
+F 1 "Conn_Coaxial" H 4980 2747 50  0000 C CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 2600 50  0001 C CNN
+F 3 " ~" H 5050 2600 50  0001 C CNN
+	1    5050 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 5D6544E8
+P 5050 3000
+F 0 "J6" H 5150 2884 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5150 2975 50  0000 L CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 3000 50  0001 C CNN
+F 3 " ~" H 5050 3000 50  0001 C CNN
+	1    5050 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 2600 5400 2600
+Wire Wire Line
+	5250 3000 5250 2700
+Wire Wire Line
+	5250 2700 5350 2700
+Wire Wire Line
+	5400 2800 5050 2800
+Connection ~ 5050 2800
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 5D654565
+P 5600 3650
+F 0 "J8" H 5573 3673 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5573 3582 50  0000 R CNN
+F 2 "MMCX_2DD-100P:2xCoax_to_2DD" H 5600 3650 50  0001 C CNN
+F 3 "~" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5D65456B
+P 5050 3550
+F 0 "J7" H 4980 3788 50  0000 C CNN
+F 1 "Conn_Coaxial" H 4980 3697 50  0000 C CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 3550 50  0001 C CNN
+F 3 " ~" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J9
+U 1 1 5D654571
+P 5050 3950
+F 0 "J9" H 5150 3834 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5150 3925 50  0000 L CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 3950 50  0001 C CNN
+F 3 " ~" H 5050 3950 50  0001 C CNN
+	1    5050 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 3550 5400 3550
+Wire Wire Line
+	5250 3950 5250 3650
+Wire Wire Line
+	5250 3650 5350 3650
+Wire Wire Line
+	5400 3750 5050 3750
+Connection ~ 5050 3750
+$Comp
+L Connector:Conn_01x03_Male J11
+U 1 1 5D65469F
+P 5600 4600
+F 0 "J11" H 5573 4623 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5573 4532 50  0000 R CNN
+F 2 "MMCX_2DD-100P:2xCoax_to_2DD" H 5600 4600 50  0001 C CNN
+F 3 "~" H 5600 4600 50  0001 C CNN
+	1    5600 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J10
+U 1 1 5D6546A5
+P 5050 4500
+F 0 "J10" H 4980 4738 50  0000 C CNN
+F 1 "Conn_Coaxial" H 4980 4647 50  0000 C CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 4500 50  0001 C CNN
+F 3 " ~" H 5050 4500 50  0001 C CNN
+	1    5050 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J12
+U 1 1 5D6546AB
+P 5050 4900
+F 0 "J12" H 5150 4784 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5150 4875 50  0000 L CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 4900 50  0001 C CNN
+F 3 " ~" H 5050 4900 50  0001 C CNN
+	1    5050 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4500 5400 4500
+Wire Wire Line
+	5250 4900 5250 4600
+Wire Wire Line
+	5400 4700 5050 4700
+Connection ~ 5050 4700
+$Comp
+L Connector:Conn_01x03_Male J14
+U 1 1 5D6546B6
+P 5600 5550
+F 0 "J14" H 5573 5573 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5573 5482 50  0000 R CNN
+F 2 "MMCX_2DD-100P:2xCoax_to_2DD" H 5600 5550 50  0001 C CNN
+F 3 "~" H 5600 5550 50  0001 C CNN
+	1    5600 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J13
+U 1 1 5D6546BC
+P 5050 5450
+F 0 "J13" H 4980 5688 50  0000 C CNN
+F 1 "Conn_Coaxial" H 4980 5597 50  0000 C CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 5450 50  0001 C CNN
+F 3 " ~" H 5050 5450 50  0001 C CNN
+	1    5050 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J15
+U 1 1 5D6546C2
+P 5050 5850
+F 0 "J15" H 5150 5734 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5150 5825 50  0000 L CNN
+F 2 "MMCX_2DD-100P:MMCX_EndLaunch_20mil_50ohm" H 5050 5850 50  0001 C CNN
+F 3 " ~" H 5050 5850 50  0001 C CNN
+	1    5050 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 5450 5400 5450
+Wire Wire Line
+	5250 5850 5250 5550
+Wire Wire Line
+	5400 5650 5050 5650
+Connection ~ 5050 5650
+Wire Wire Line
+	4450 1650 4650 1650
+Wire Wire Line
+	4650 1650 4650 1350
+Wire Wire Line
+	4650 1350 5400 1350
+Wire Wire Line
+	5400 1350 5400 1650
+Connection ~ 5400 1650
+Wire Wire Line
+	5050 1850 4650 1850
+Wire Wire Line
+	4650 1850 4650 1750
+Wire Wire Line
+	4650 1750 4450 1750
+Wire Wire Line
+	4450 1850 4550 1850
+Wire Wire Line
+	4550 1850 4550 2200
+Wire Wire Line
+	4450 2600 4650 2600
+Wire Wire Line
+	4650 2600 4650 2300
+Wire Wire Line
+	4650 2300 5400 2300
+Wire Wire Line
+	5050 2800 4650 2800
+Wire Wire Line
+	4650 2800 4650 2700
+Wire Wire Line
+	4650 2700 4450 2700
+Wire Wire Line
+	4450 2800 4550 2800
+Wire Wire Line
+	4550 2800 4550 3150
+Wire Wire Line
+	5400 2300 5400 2600
+Connection ~ 5400 2600
+Wire Wire Line
+	4550 3150 5350 3150
+Wire Wire Line
+	5350 3150 5350 2700
+Connection ~ 5350 2700
+Wire Wire Line
+	5350 2700 5400 2700
+Wire Wire Line
+	4550 2200 5350 2200
+Wire Wire Line
+	5350 2200 5350 1750
+Connection ~ 5350 1750
+Wire Wire Line
+	5350 1750 5400 1750
+Wire Wire Line
+	4450 3550 4650 3550
+Wire Wire Line
+	4650 3550 4650 3250
+Wire Wire Line
+	4650 3250 5400 3250
+Wire Wire Line
+	5050 3750 4650 3750
+Wire Wire Line
+	4650 3750 4650 3650
+Wire Wire Line
+	4650 3650 4450 3650
+Wire Wire Line
+	4450 3750 4550 3750
+Wire Wire Line
+	4550 3750 4550 4100
+Wire Wire Line
+	4550 4100 5350 4100
+Wire Wire Line
+	5400 3250 5400 3550
+Connection ~ 5400 3550
+Wire Wire Line
+	5350 4100 5350 3650
+Connection ~ 5350 3650
+Wire Wire Line
+	5350 3650 5400 3650
+Wire Wire Line
+	4450 4500 4650 4500
+Wire Wire Line
+	4650 4500 4650 4200
+Wire Wire Line
+	4650 4200 5400 4200
+Wire Wire Line
+	5050 4700 4650 4700
+Wire Wire Line
+	4650 4700 4650 4600
+Wire Wire Line
+	4650 4600 4450 4600
+Wire Wire Line
+	4450 4700 4550 4700
+Wire Wire Line
+	4550 4700 4550 5050
+Wire Wire Line
+	4550 5050 5350 5050
+Wire Wire Line
+	5400 4200 5400 4500
+Connection ~ 5400 4500
+Wire Wire Line
+	5350 5050 5350 4600
+Wire Wire Line
+	5250 4600 5350 4600
+Connection ~ 5350 4600
+Wire Wire Line
+	5350 4600 5400 4600
+Wire Wire Line
+	4450 5450 4650 5450
+Wire Wire Line
+	4650 5450 4650 5150
+Wire Wire Line
+	4650 5150 5400 5150
+Wire Wire Line
+	5050 5650 4650 5650
+Wire Wire Line
+	4650 5650 4650 5550
+Wire Wire Line
+	4650 5550 4450 5550
+Wire Wire Line
+	4450 5650 4550 5650
+Wire Wire Line
+	4550 5650 4550 6000
+Wire Wire Line
+	4550 6000 5350 6000
+Wire Wire Line
+	5400 5150 5400 5450
+Connection ~ 5400 5450
+Wire Wire Line
+	5350 6000 5350 5550
+Wire Wire Line
+	5250 5550 5350 5550
+Connection ~ 5350 5550
+Wire Wire Line
+	5350 5550 5400 5550
+$EndSCHEMATC
