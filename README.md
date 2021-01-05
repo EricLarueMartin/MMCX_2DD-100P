@@ -5,7 +5,9 @@ Requires two PCBs on 47 mil board, one for even channel and one for odd channels
 MMCX_2DD-100P_Even.zip and MMCX_2DD-100P_Odd.zip
 
 Uses MMCX connectors: MOLEX 0734150961
+
 The other connector is a double density 100 pin DSub connector: ITT Cannon 2DD-100PF0
+
 The pins for the connector are 031-9540-015
 
 Any MMCX plug can connector to the adapter, such as MOLEX 0734150970
